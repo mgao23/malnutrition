@@ -44,5 +44,5 @@ for u in centrality_degree:
 plt.figure(figsize=(12, 8))
 pos = nx.spring_layout(g, seed=42)
 nx.draw(g, pos, with_labels=True, node_color="pink", edge_color="gray", node_size=300, font_size=8)
-plt.title("Country Health Similarity Network (Without Threshold)")
+plt.title("Country Health Similarity Network")
 plt.show()  
